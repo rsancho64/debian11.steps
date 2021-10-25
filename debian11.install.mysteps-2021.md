@@ -1,6 +1,6 @@
-debian11 debian11 debian11
-    netinstall iso
-    gnome 
+debian11
+
+    netinstall iso; gnome 
 
 ## entrar en root:
 ```bash
@@ -10,7 +10,7 @@ su -
 
 +: fix `sudo` 4 `ray` (`<username>`): `visudo /etc/sudoers` ; ALL ALL ALL ...
 
-+: Wayland problem: modos graficos para root: sol: miniwrapper **`wsudo`** en $HOME/bin (already in $PATH in `~/.bashrc`)
++: Wayland problem: modos graficos para root: sol: un miniwrapper **`wsudo`** en $HOME/bin (already in $PATH in `~/.bashrc`)
 ```bash
 #!/bin/sh
 #Wayland sudo miniwrapper
@@ -60,14 +60,13 @@ En `~/.config/sublime-text/Packages/User/Default(Linux).sublime-keymap(ray)`
 ]
 
 ### package control: ctl+shift+p; ...
-
     - sidebar enhacements
     - Emmet?
     - Git?
 
 ## Must-Have Sublime Text 3 Packages:
 
-### todo: off purchase advice
+- [] off subl purchase advice
 
 ## **guake**
 
@@ -218,30 +217,27 @@ sudo add-apt-repository ppa:hvr/ghc
      More info: https://launchpad.net/~hvr/+archive/ubuntu/ghc
     Press [ENTER] to continue or ctrl-c to cancel adding it
 
-## to-do: **texlive**
+- [] **texlive**
 
 from synaptic: marcar texlive-full y quitar idiomas (español no)
 then: gummi; texStudio
 
-## to-do: ++swap:
+- [] ++swap:
 
 1. etcher: https://balena.io/etcher
 1. ready-bost: https://indaga.net/que-es-ready-boost-y-como-implementarlo-en-linux/
 1. osboxes: https://www.osboxes.org/
 
-## **pinta**
+- [x] **pinta**
 ```bash:
 # prerequisitos en https://github.com/PintaProject/Pinta &&
          git clone https://github.com/PintaProject/Pinta.git
 ```
-to do: circular menus in gnome
-
-fb: Fukerb3rg4s
+- [] circular menus in gnome
 
 # Emulacion y virtualizacion
 
 <!-- ## gettings started w **qemu**
-
 Tengo un .ova de juanda. Son tars. Lo despliego (`tar -xvf`) y tengo:
     - un .vmdk
     - un .ova
@@ -268,9 +264,5 @@ try https://github.com/virt-manager/virt-manager para usar el .ovf
 - [oficial](https://docs.docker.com/engine/install/debian/)
 - [docker-compose](https://dockertips.com/utilizando-docker-compose)
 
-# to-do: openssh server
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDc5MDU1MiwxOTg4NjY4MDQsMTQ2MT
-g3MzM5NywtMTcwODkzMTYxXX0=
--->
+- [] to-do: openssh server
+- [] [**visual studio code**](https://idroot.us/install-visual-studio-code-debian-11/)
