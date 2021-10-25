@@ -1,4 +1,4 @@
-debian11
+debian11 debian11 debian11
     netinstall iso
     gnome 
 
